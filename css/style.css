@@ -1,0 +1,553 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #111b21;
+    font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.container{
+   max-width: 94.8%;
+    margin: auto;
+}
+
+.bn-container{
+    max-width: 95.8%;
+     margin: auto;
+ }
+
+ .cn-container{
+    max-width: 71%;
+     margin: auto;
+ }
+
+.head{
+    width: 100%;
+    float: left;  
+    height: 52px;
+    position: fixed;
+    z-index: 2;
+    padding: 14px 0px;
+    background-color: #fcf5eb;
+
+}
+
+.logo{
+    width: 20%;
+    float: left;
+    padding: 9px 0px;
+}
+
+.logo img{
+    width: 130.2px;
+    height: 30px;
+    float: left;
+}
+
+.nav{
+    width: 57%;
+    padding: 7px 0px;
+    display: flex;
+    float: left;
+    justify-content: space-around;
+}
+
+.nav ul{
+    float: left;
+    margin: 0px;
+    padding: 9px 0px;
+
+}
+
+.nav li{
+    list-style: none;
+    float: left;
+    padding-left: 40px;
+}
+
+.nav a{
+    font-size: 16px;
+    font-weight: 200;
+    float: left;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.buton{
+    width: 22.5%;
+    float: left;
+}
+
+
+.btn{
+    float: left;
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 11px 31px;
+    background-color: #25d366;
+}
+.wtsp{
+    color: rgb(0, 0, 0);
+    float: left;
+    text-decoration: none;
+    margin-right: 26px;
+    margin-left: 35px;
+    padding: 18px 0px;
+}
+.btn a{
+   float: left;
+   margin: 5px 0px;
+   margin-right: 5px;
+   color: rgb(0, 0, 0);
+   text-decoration: none;
+}
+
+.banner{
+    width: 100%;
+    float: left;
+       padding-bottom: 33px;
+    padding-top: 112px;
+    background-color: #fcf5eb;
+}
+
+.ban-image{
+    width: 100%;
+    float: left;
+    height: 752px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+}
+.align-this{
+    width: 100%;
+    display: flex;
+    float: left;
+    padding: 73px 0px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.banner-title{
+    width: 31%;
+    float: left;
+   
+}
+
+.banner-title h1{
+   font-size: 80px;
+   font-weight: 200;
+   width: 100%;
+   margin: 0px;
+   letter-spacing: -2.8px;
+   margin-top: 174px;
+   line-height: 1;
+   color: white;
+   float: left;
+}
+
+.banner-title p{
+    font-size: 20px;
+    float: left;
+    width: 84%;
+    color: white;
+}
+
+.chating{
+    width: 30%;
+    float: left;  
+}
+
+.first-sec{
+    width: 100%;
+    float: left;
+}
+
+.down-txt{
+    width: 100%;
+    float: left;
+}
+
+.down-txt p{
+    float: right;
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: -0.01em;
+    line-height: 16px;
+    
+}
+
+.our-clints{
+    width: 100%;
+    float: left;
+    padding-bottom: 20px;
+    background-color:  #fcf5eb ;
+}
+
+.clints{
+    padding: 0px 39px;
+    float: left;
+    
+}
+
+.clints img{
+    width: 100%;
+    height: auto;
+    float: left;
+  
+}
+
+.clnt-cntnt{
+    width: 100%;
+    display: flex;
+    float: left;
+    padding: 20px 0px 17px;
+    justify-content: space-around;
+}
+
+.clnt-cntnt h1{
+    font-size: 48px;
+    letter-spacing: -0.03em;
+    line-height: 1;
+    width: 60%;
+    font-weight: 200;
+    text-align: center;
+}
+
+.conect{
+    width: 100%;
+    float: left;
+    background-color:  #fcf5eb ;
+    padding: 70px 0px 60px;
+
+}
+
+.mesge1{
+    width: 50%;
+    float: left;
+    margin-top: 179px;
+}
+
+.mesge1 h1{
+    font-size: 60px;
+    letter-spacing: -0.03em;
+    line-height: 1;
+    width: 79%;
+    font-weight: 200;
+    margin: 0px;
+}
+.mesge1 p{
+    width: 78%;
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 17px;
+    margin-bottom: 36px;
+}
+
+
+.mesege1-image{
+    width: 50%;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bton {
+    color: black;
+    border-bottom: #25d366 3px solid;
+    text-decoration: none;
+}
+
+.messege2{
+    width: 100%;
+    float: left;
+    padding: 95px 0px 100px;
+    background-color: #111b21;
+}
+
+.messege2-image{
+    width: 50%;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.messege2-txt{
+    width: 41%;
+    float: left;
+    margin-top: 195px;
+    margin-left: 90px;
+}
+
+.messege2-txt h1{
+    font-size: 60px;
+    letter-spacing: -0.03em;
+    line-height: 1;
+    width: 43%;
+    font-weight: 200;
+    margin: 0px;
+    color: white;
+}
+
+.messege2-txt h1 span{
+    color: #25d366;
+}
+.messege2-txt p{
+    width: 100%;
+    font-weight: 100;
+    line-height: 25px;
+    color: white;
+    font-size: 17px;
+    margin-bottom: 36px;
+}
+
+.group-discus{
+    width: 100%;
+    float: left;
+    background-color: #fcf5eb;
+    height: 500px;
+}
+
+.grp-image{
+    width: 100%;
+}
+
+.grp-discs{
+    width: 100%;
+    float: left;
+    background-color:  #fcf5eb ;
+    padding: 98px 0px 60px;
+
+}
+
+.grp-discs-imge{
+    width: 50%;
+    float: left;
+    
+}
+
+.grp-image{
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    height: 643px;
+}
+
+.grp-image img{
+    width: 74%;
+    float: left;
+    margin-left: 70px;
+    margin-top: 82px;
+}
+
+.other-m{
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    height: 643px;
+}
+.smile{
+    width: 50%;
+    float: left;
+}
+
+.other-m img{
+    width: 61%;
+    float: left;
+    margin-left: 105px;
+    margin-top: 181px;
+}
+
+.owl{
+    width: 100%;
+    float: left;
+    position: relative;
+    padding: 99px 0px 134px;
+    background-color: #E6FFDA;
+    border-radius: 0px 0px 37px 37px;
+}
+
+.carsl{
+    width: 50%;
+    float: left;
+    
+}
+
+.carsl h1{
+    font-size: 58px;
+    line-height: 1;
+    font-weight: lighter;
+    margin: 0px;
+    
+}
+
+.arow{
+    width: 100%;
+  
+    margin-top: 293px;
+
+    float: left;
+}
+
+.arow img{
+    transform: rotate(-90deg);
+}
+
+.text-owl{
+    width: 50%;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+ 
+
+}
+
+.text-owl2{
+    padding: 56px;
+    width: 401px;
+    background-color: white;
+    border-radius: 20px;
+   
+}
+
+.text-owl h2{
+    font-size: 32px;
+    letter-spacing: -0.03em;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+.text-owl p{
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.boutn-4{
+    color: black;
+    text-decoration: none;
+    width: 31%;
+   margin-top: 16px;
+    padding: 14px 0px;
+    text-align: center;
+    float: left;
+    border: #111b21 solid 1px;
+    border-radius: 25px;
+}
+
+.foter{
+    width: 100%;
+    float: left;
+    background-color: #111b21;
+    height: 500px; 
+}
+
+.ftr-part1{
+    width: 100%;
+    float: left;
+    padding: 92px 0px 90px;
+}
+
+.part1{
+    width: 24%;
+    float: left;
+
+}
+.ftr-logo{
+    width: 100%;
+    float: left;
+    margin-left: 16px;
+}
+
+.part1 img{
+    width: auto;
+    height: 37px;
+    float: left;
+}
+
+.part2{
+    width: 19%;
+    float: left;
+
+}
+
+
+.part2 a{
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: white;
+    margin-top: 21px;
+    text-decoration: none;
+}
+
+.heder-part2{
+    width: 100%;
+    float: left;
+    color: white;
+    font-size: 12px;
+    margin-top: 0px;
+    font-weight: 700;
+ 
+}
+
+.copyright{
+    width: 100%;
+   padding: 34px 0px;
+    float: left;
+    border-top: 1px solid #33463f;
+}
+
+.aria1{
+    width: 34%;
+    float: left;
+}
+
+.aria1 p{
+    width: 50%;
+    float: left;
+    font-size: 12px;
+    color: white;
+}
+
+.aria2{
+    float: left;
+}
+
+.alignn{
+    width: 50px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 50px;
+    border-radius: 25px;
+    border: white 1px solid;
+}
+
+.alignn img{
+    width: 19px;
+    margin: 16px;
+    height: auto;
+    float: left;
+}
+
+.aria3{
+    width: 39%;
+    float: right;
+}
+
+.lange{
+    width: 50%;
+    padding: 13px 20px;
+    height: 52px;
+    font-size: 17px;
+    color: white;
+    font-weight: 700;
+    margin-left: 221px;
+    border: 2px solid white;
+    float: left;
+    border-radius: 26px;
+    background-color: transparent;
+}
+
+.option{
+    color: black;
+}
